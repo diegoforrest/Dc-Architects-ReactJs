@@ -1,0 +1,47 @@
+footer {
+  font-size: 12px;
+}
+footer .footer-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer .col-cont {
+  margin: 16px;
+  flex: 1;
+}
+footer .col-cont h2 {
+  text-align: center;
+  font-size: 1.75em;
+}
+footer .col-cont .links-cont {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .col-cont .links {
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 1.5em;
+}
+footer .left-col-cont a {
+  margin: 0 8px;
+  font-size: 30px;
+}
+footer .redirect-links-cont {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+footer .redirect-links-cont a {
+  text-decoration: none;
+}
+footer .question-cont i {
+  margin-right: 8px;
+  opacity: 0.6;
+}
+footer .question-cont span {
+  opacity: 0.6;
+  font-size: 1.25em;
+}/*# sourceMappingURL=Footer.css.map */

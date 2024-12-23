@@ -1,0 +1,59 @@
+footer {
+    font-size: 12px;
+
+    .footer-first {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .col-cont {
+        margin: 16px;
+        flex: 1;
+
+        h2 {
+            text-align: center;
+            font-size: 1.75em;
+        }
+
+        .links-cont {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .links {
+            text-decoration: none;
+            text-align: center;
+            opacity: 0.6;
+            font-size: 1.50em;
+        }
+    }
+
+    .left-col-cont a {
+        margin: 0 8px;
+        font-size: 30px
+    }
+
+    .redirect-links-cont {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .question-cont {
+        i {
+            margin-right: 8px;
+            opacity: 0.6;
+        }
+
+        span {
+            opacity: 0.6;
+            font-size: 1.25em;
+        }
+    }
+}
